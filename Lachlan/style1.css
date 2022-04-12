@@ -1,0 +1,267 @@
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+	#main_title{
+		font-size: 75px; 
+	}
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+	#main_title{
+		text-align: left;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+
+
+/*Universals*/
+
+body {
+	
+	background-color: #231F20;
+	color: #231F20;
+	font-family: 'Work Sans', sans-serif;
+	
+}
+
+
+p{
+	color: #EAEAEA;
+}
+
+h2{
+	color: #EAEAEA;
+	font-size: 75px;
+	text-align: center;
+}
+
+
+/*Header*/
+nav {
+	display: inline-block;
+		
+}
+
+nav li {
+	display:  inline-block;
+	padding:  25px 35px;
+	margin: 10px 100px 10px 100px;
+	
+	
+}
+
+
+header {
+	background-color: #AD974F;
+	
+
+}
+
+
+/* Containers*/
+
+.container{
+	display: flex;
+	max-width: 100%;
+	height: auto;
+	
+	
+}
+
+/*Nav bar */
+
+#top_bar a{
+	font-family: "Oswald", sans-serif;
+	text-transform: uppercase;
+	color:#000000;
+	text-decoration: none;
+	font-weight: 600;
+
+}
+
+#top_bar a:hover{
+	color: #EAEAEA;
+
+}
+
+
+/*Main title - previous overlay of gold.*/
+
+
+
+
+#main_title{
+  height: auto;
+  color: #EAEAEA;
+  font-size: calc(20px + 1vw);
+  font-weight: 400;
+  font-family: 'Work Sans', sans-serif;
+  text-align:  center;
+  max-width: 55%;
+  margin: 15px auto;
+  padding-bottom: 40px;	
+ 
+}
+
+
+
+.sub_title {
+	text-align: center;
+	color: #8E793E;
+	font-size: 220%;
+	width: 100%;
+	margin-top: 100px;
+	
+}
+
+
+/* Intro */
+
+p#intro {
+	font-size: calc(16px + 0.5vw);
+	text-align: center;
+	width:  50%;
+	margin: 20px auto;
+
+}
+
+/*Services and Prices */
+
+.cards {
+    background-color: #ffc200;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+  
+.col {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.col img {
+    width: 10%;
+    height: 25%;
+}
+  
+#services {
+    padding: 20px;
+    background-color: #ffc200;
+    margin: 0;
+    text-align: center;
+}
+	
+	
+
+
+
+
+/*Invisible seperators */
+
+#seperator1{
+	max-height: auto;
+	border-radius: 5%;
+	margin: 16px auto;
+	max-width: 80%;
+	
+}
+
+#seperator1 img{
+	height: auto;
+	max-width: 100%;
+	margin-left: 15%;
+}
+
+#seperator2{
+	height: 200px;
+
+}
+
+#seperator3{
+	height: 200px;
+}
+
+#seperator4{
+	height: 300px;
+}
+/*sub prices*/
+
+p#Jai {
+	font-size: 25px;
+	text-align: center;
+	width:  700px;
+	margin: 20px auto;
+
+}
+
+/*Jaisalmer Images */
+
+
+#info img {
+	width: 50%;
+	height: 50%;
+	margin: 25px auto;
+	padding-left: 400px;
+}
+
+#info figcaption{
+	color:#EAEAEA;
+	text-align: center;
+	font-size: 20px;
+	padding-right: 15px;
+	
+}
+
+/*About*/
+
+#me{
+	display: inline-flex;
+	width: 100%;
+	height: 600px;
+	margin-left: 75px;
+	background-color: #EAEAEA;
+	color: #000000;
+}
+
+#me img{
+	width: 85%;
+	height: 85%;
+	
+}
+
+#me p{
+	color: #000000;
+	font-size: 25px;
+	text-align: center;
+	width: 500px;
+	padding-right: 55px;
+	padding-top: 75px;
+	margin: 25px;
+}
+/*footer*/
+
+footer{
+	background-color: #8E793E;
+}
+
+footer p{
+	display: inline-block;
+	font-size: 18px;
+	padding: 10px 250px;
+}

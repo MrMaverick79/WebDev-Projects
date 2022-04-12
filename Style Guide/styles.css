@@ -1,0 +1,167 @@
+/* Universals */
+h1{
+    text-align: center;
+    
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Containers*/
+.container{
+    border: 2px solid black;
+    margin-right: 25%;
+    margin-left: 25%;
+    margin-bottom: 20px;
+    width: 50%;
+    
+}
+
+.container h2{
+    text-align: center;
+}
+
+/* Colors*/
+.color-panel {
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.color-one{
+    background-color: #D60FFE;
+    padding: 5px;
+    font-weight: 600;
+}
+
+.color-two{
+    background-color: #45CBF4;
+    padding: 5px;
+    font-weight: 600;
+}
+
+.color-three{
+    background-color: #00007C;
+    padding: 5px;
+    font-weight: 600;
+    color: #fff
+}
+
+/*Fonts*/
+
+.font-panel{
+    display: inline-block;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+
+/*Font 1*/
+.font-label-one{
+    text-decoration: underline;
+    font-family: 'Send Flowers' , serif;
+    font-size: 30px;
+}
+
+.font-regular-one{
+    font-family: 'Send Flowers', serif;
+    
+}
+
+.font-bold-one {
+    font-family: 'Send Flowers', serif;
+    font-weight: bold;
+}
+
+.font-italic-one{
+    font-family: 'Send Flowers', serif;
+    font-style: italic;
+}   
+
+/* Font 2*/
+
+.font-label-two{
+    text-decoration: underline;
+    font-family: 'Rubik Glitch' , serif;
+    font-size: 30px;
+}
+
+.font-regular-two{
+    font-family: 'Rubik Glitch', serif;
+    
+}
+
+.font-bold-two {
+    font-family: 'Rubik Glitch', serif;
+    font-weight: bold;
+}
+
+.font-italic-two{
+    font-family: 'Rubik Glitch', serif;
+    font-style: italic;
+}
+
+/* Font 3*/
+
+.font-label-three{
+    text-decoration: underline;
+    font-family: 'Roboto Mono' , monospace;
+    font-size: 30px;
+}
+
+.font-regular-three{
+    font-family: 'Roboto Mono', serif;
+    
+}
+
+.font-bold-three {
+    font-family: 'Roboto Mono', serif;
+    font-weight: 700;
+}
+
+.font-italic-three{
+    font-family: 'Roboto Mono', serif;
+    font-style: italic;
+}
+/*Text Styles*/
+
+
+.Main-title{
+    font-family: 'Send Flowers', serif;
+    margin: 10px;
+}
+
+.Main-title h1{
+    font-size: 36px;
+    font-weight: 700px;
+    text-align: left;
+    color: #D60FFE
+}
+
+.Subheading {
+    font-family: 'Rubik Glitch', serif;
+    margin: 10px;
+}
+
+.Subheading h2{
+    Text-align: left;
+    font-size: 20px;
+    color: #00007C;
+    font-weight: 400;
+}
+
+.paragraph {
+    font-family: 'Roboto Mono', serif;
+    margin: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    color: black
+}
+
+
+
