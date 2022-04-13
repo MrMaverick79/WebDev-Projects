@@ -1,0 +1,158 @@
+/* Universals */
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: BLACK;
+    opacity: 0.9;
+    font-weight: 600;
+
+}
+
+/*Header*/
+
+.header{
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    display: inline-flex;
+    width: 1300px;
+    justify-content: space-between;
+}
+
+.header img{
+    height: 50px;
+    border-left: 10px;
+    justify-content: flex-start;
+}
+
+.header ul li{
+    text-decoration: underline;
+    display: inline-block;
+    padding-right: 15px;    
+    
+}
+
+.header a{
+    color: seashell;
+    opacity: 0.8;
+}
+
+
+/* containers*/
+.container{
+    display: inline-flex;
+    text-align: center;
+    width:1300px;
+}
+
+/* Jumbotron and mission */
+.jumbotron {
+    background-image: url('./images/img-mission-background.webp');
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+
+}
+
+#mission {
+    width: 1200px;
+    background-color: black;
+    opacity: 0.9;
+  
+    
+}
+
+/* Monthly Teas */
+
+.monthly h2{
+    font-size: 40px;
+}
+
+.cards{
+    display: inline-flex;
+}
+
+.cards img{
+    width: 300px;
+    height: 200px;
+}
+
+
+.cards figcaption{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: BLACK;
+    opacity: 0.9;
+    padding-top: 10px;
+}
+
+.monthly{
+    width: 1000px;
+    padding-top: 25px;
+    margin-left: 150px;
+    
+}
+
+/* Locations */
+
+.locations{
+    background-image: url('./images/img-locations-background.webp');
+    height: 600px;
+    margin-left: 50px;
+    width: 1200px;
+    margin-top: 20px;
+}
+
+#locations{
+    padding-top:15px;
+   
+    
+}
+/*Location cards*/
+
+.loc {
+    background-color: black;
+    opacity: 1;
+    width: 300px;
+    height: 300px;
+    display: inline-flex;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 40px;
+    padding-bottom: 10px;
+    margin-top: 15px;
+}
+
+
+/*contact*/
+
+.contact{
+    display: inline-flex;
+    height: 200px;
+    width: 1300px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+.contact h2{
+    padding-top: 50px;
+}
+
+/*footer*/
+
+footer{
+    margin-left: 20px;
+    text-align: left;
+
+}
